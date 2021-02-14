@@ -19,7 +19,7 @@ public class Main {
 	    }
 	    
 	    System.out.println("Client connected to "+DEFAULT_HOST+":"+DEFAULT_PORT);
-	    Interface swing= new Interface("Java Anh-Vu Nguyen", client);
+	    new Interface("Java Anh-Vu Nguyen", client);
 	    
 	}
 
