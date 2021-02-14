@@ -1,0 +1,156 @@
+\hypertarget{class_manipulator}{}\doxysection{Manipulator Class Reference}
+\label{class_manipulator}\index{Manipulator@{Manipulator}}
+
+
+\mbox{\hyperlink{class_manipulator}{Manipulator}} manipulates all the multiledia items and process the requests.  
+
+
+
+
+{\ttfamily \#include $<$manipulator.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_manipulator_a38163f1053afc68a09a5887a231de074}\label{class_manipulator_a38163f1053afc68a09a5887a231de074}} 
+bool {\bfseries process\+Request} (\mbox{\hyperlink{classcppu_1_1_t_c_p_connection}{TCPConnection}} \&cnx, const string \&request, string \&response)
+\item 
+shared\+\_\+ptr$<$ \mbox{\hyperlink{class_multimedia}{Multimedia}} $>$ \mbox{\hyperlink{class_manipulator_aec035d335e6711d73bd85a285c57e3f9}{search\+Multimedia}} (string type\+Name)
+\begin{DoxyCompactList}\small\item\em search\+Multimedia \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_manipulator_af4033aa0f40823b6a905251c70bd887b}\label{class_manipulator_af4033aa0f40823b6a905251c70bd887b}} 
+shared\+\_\+ptr$<$ \mbox{\hyperlink{class_video}{Video}} $>$ \mbox{\hyperlink{class_manipulator_af4033aa0f40823b6a905251c70bd887b}{new\+Video}} (string type\+Name, string path, int duration)
+\begin{DoxyCompactList}\small\item\em new\+Video same param as for \mbox{\hyperlink{class_video}{Video}} \end{DoxyCompactList}\item 
+shared\+\_\+ptr$<$ \mbox{\hyperlink{class_photo}{Photo}} $>$ \mbox{\hyperlink{class_manipulator_a0a8b39466c08432b824bf382c69c7b12}{new\+Photo}} (string type\+Name, string path, double latitude, double longitude)
+\begin{DoxyCompactList}\small\item\em new\+Photo same param as for \mbox{\hyperlink{class_photo}{Photo}} \end{DoxyCompactList}\item 
+shared\+\_\+ptr$<$ \mbox{\hyperlink{class_film}{Film}} $>$ \mbox{\hyperlink{class_manipulator_a96826275ac3f832174ed84482a181ed3}{new\+Film}} (string type\+Name, string path, int duration, int chapter\+Count, int $\ast$chapters\+Array)
+\begin{DoxyCompactList}\small\item\em new\+Film same param as for Flim \end{DoxyCompactList}\item 
+shared\+\_\+ptr$<$ \mbox{\hyperlink{class_group}{Group}} $>$ \mbox{\hyperlink{class_manipulator_a4aadf854c0a931f2fea45eef398f7f69}{new\+Group}} (string type\+Name)
+\begin{DoxyCompactList}\small\item\em new\+Group same param as for \mbox{\hyperlink{class_group}{Group}} \end{DoxyCompactList}\item 
+shared\+\_\+ptr$<$ \mbox{\hyperlink{class_group}{Group}} $>$ \mbox{\hyperlink{class_manipulator_a7217f412247e2bcbac7aad1226afed31}{search\+Group}} (string type\+Name)
+\begin{DoxyCompactList}\small\item\em search\+Group \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manipulator_a0de54cd53f886d2b52c9422f1b412b5c}{play\+Item}} (string type\+Name)
+\begin{DoxyCompactList}\small\item\em play\+Item \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_manipulator_ab8ebfa0fc004b72ab0832c258798a71f}\label{class_manipulator_ab8ebfa0fc004b72ab0832c258798a71f}} 
+string \mbox{\hyperlink{class_manipulator_ab8ebfa0fc004b72ab0832c258798a71f}{multimedia\+All}} ()
+\begin{DoxyCompactList}\small\item\em multimedia\+All \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manipulator_a3df29ffdf262623f27525bf81a5437e4}{show\+Infos}} (string type\+Name, ostream \&flux)
+\begin{DoxyCompactList}\small\item\em show\+Infos \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_manipulator}{Manipulator}} manipulates all the multiledia items and process the requests. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_manipulator_a96826275ac3f832174ed84482a181ed3}\label{class_manipulator_a96826275ac3f832174ed84482a181ed3}} 
+\index{Manipulator@{Manipulator}!newFilm@{newFilm}}
+\index{newFilm@{newFilm}!Manipulator@{Manipulator}}
+\doxysubsubsection{\texorpdfstring{newFilm()}{newFilm()}}
+{\footnotesize\ttfamily shared\+\_\+ptr$<$ \mbox{\hyperlink{class_film}{Film}} $>$ Manipulator\+::new\+Film (\begin{DoxyParamCaption}\item[{string}]{type\+Name,  }\item[{string}]{path,  }\item[{int}]{duration,  }\item[{int}]{chapter\+Count,  }\item[{int $\ast$}]{chapters\+Array }\end{DoxyParamCaption})}
+
+
+
+new\+Film same param as for Flim 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_manipulator_a4aadf854c0a931f2fea45eef398f7f69}\label{class_manipulator_a4aadf854c0a931f2fea45eef398f7f69}} 
+\index{Manipulator@{Manipulator}!newGroup@{newGroup}}
+\index{newGroup@{newGroup}!Manipulator@{Manipulator}}
+\doxysubsubsection{\texorpdfstring{newGroup()}{newGroup()}}
+{\footnotesize\ttfamily shared\+\_\+ptr$<$ \mbox{\hyperlink{class_group}{Group}} $>$ Manipulator\+::new\+Group (\begin{DoxyParamCaption}\item[{string}]{type\+Name }\end{DoxyParamCaption})}
+
+
+
+new\+Group same param as for \mbox{\hyperlink{class_group}{Group}} 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_manipulator_a0a8b39466c08432b824bf382c69c7b12}\label{class_manipulator_a0a8b39466c08432b824bf382c69c7b12}} 
+\index{Manipulator@{Manipulator}!newPhoto@{newPhoto}}
+\index{newPhoto@{newPhoto}!Manipulator@{Manipulator}}
+\doxysubsubsection{\texorpdfstring{newPhoto()}{newPhoto()}}
+{\footnotesize\ttfamily shared\+\_\+ptr$<$ \mbox{\hyperlink{class_photo}{Photo}} $>$ Manipulator\+::new\+Photo (\begin{DoxyParamCaption}\item[{string}]{type\+Name,  }\item[{string}]{path,  }\item[{double}]{latitude,  }\item[{double}]{longitude }\end{DoxyParamCaption})}
+
+
+
+new\+Photo same param as for \mbox{\hyperlink{class_photo}{Photo}} 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_manipulator_a0de54cd53f886d2b52c9422f1b412b5c}\label{class_manipulator_a0de54cd53f886d2b52c9422f1b412b5c}} 
+\index{Manipulator@{Manipulator}!playItem@{playItem}}
+\index{playItem@{playItem}!Manipulator@{Manipulator}}
+\doxysubsubsection{\texorpdfstring{playItem()}{playItem()}}
+{\footnotesize\ttfamily void Manipulator\+::play\+Item (\begin{DoxyParamCaption}\item[{string}]{type\+Name }\end{DoxyParamCaption})}
+
+
+
+play\+Item 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_manipulator_a7217f412247e2bcbac7aad1226afed31}\label{class_manipulator_a7217f412247e2bcbac7aad1226afed31}} 
+\index{Manipulator@{Manipulator}!searchGroup@{searchGroup}}
+\index{searchGroup@{searchGroup}!Manipulator@{Manipulator}}
+\doxysubsubsection{\texorpdfstring{searchGroup()}{searchGroup()}}
+{\footnotesize\ttfamily shared\+\_\+ptr$<$ \mbox{\hyperlink{class_group}{Group}} $>$ Manipulator\+::search\+Group (\begin{DoxyParamCaption}\item[{string}]{type\+Name }\end{DoxyParamCaption})}
+
+
+
+search\+Group 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_manipulator_aec035d335e6711d73bd85a285c57e3f9}\label{class_manipulator_aec035d335e6711d73bd85a285c57e3f9}} 
+\index{Manipulator@{Manipulator}!searchMultimedia@{searchMultimedia}}
+\index{searchMultimedia@{searchMultimedia}!Manipulator@{Manipulator}}
+\doxysubsubsection{\texorpdfstring{searchMultimedia()}{searchMultimedia()}}
+{\footnotesize\ttfamily shared\+\_\+ptr$<$ \mbox{\hyperlink{class_multimedia}{Multimedia}} $>$ Manipulator\+::search\+Multimedia (\begin{DoxyParamCaption}\item[{string}]{type\+Name }\end{DoxyParamCaption})}
+
+
+
+search\+Multimedia 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_manipulator_a3df29ffdf262623f27525bf81a5437e4}\label{class_manipulator_a3df29ffdf262623f27525bf81a5437e4}} 
+\index{Manipulator@{Manipulator}!showInfos@{showInfos}}
+\index{showInfos@{showInfos}!Manipulator@{Manipulator}}
+\doxysubsubsection{\texorpdfstring{showInfos()}{showInfos()}}
+{\footnotesize\ttfamily void Manipulator\+::show\+Infos (\begin{DoxyParamCaption}\item[{string}]{type\+Name,  }\item[{ostream \&}]{flux }\end{DoxyParamCaption})}
+
+
+
+show\+Infos 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & \\
+\hline
+{\em flux} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+manipulator.\+h\item 
+manipulator.\+cpp\end{DoxyCompactItemize}

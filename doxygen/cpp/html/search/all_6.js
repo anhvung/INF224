@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['getchapter_12',['getChapter',['../class_film.html#ad62be89caa3ba83cee177611a4b07a11',1,'Film']]],
+  ['getchaptercount_13',['getChapterCount',['../class_film.html#aca6ffdbbe0b127da245f9dc433af0e30',1,'Film']]],
+  ['getchapters_14',['getChapters',['../class_film.html#afcc33d53ddc3389f0d9d9362323c6da3',1,'Film']]],
+  ['getduration_15',['getDuration',['../class_video.html#a57f903f1d582ac6ef88922c7a6cb8f7f',1,'Video']]],
+  ['getlat_16',['getLat',['../class_photo.html#a9eba6fde379e994d4d851425cd6013c8',1,'Photo']]],
+  ['getlongitude_17',['getLongitude',['../class_photo.html#aea1be7b7541ad5825fd24b727ddbd4b1',1,'Photo']]],
+  ['getname_18',['getName',['../class_group.html#a0c53394616dda01965f5906f2d98d835',1,'Group']]],
+  ['getpath_19',['getPath',['../class_multimedia.html#a6d8a210061b18bddc936deb9fba6e439',1,'Multimedia']]],
+  ['getreceivebuffersize_20',['getReceiveBufferSize',['../classcppu_1_1_socket.html#a2058e95277c8db85c9ceb3794dc52fd4',1,'cppu::Socket']]],
+  ['getreuseaddress_21',['getReuseAddress',['../classcppu_1_1_socket.html#a67b90a17ea69d3a94763d9e12eba0255',1,'cppu::Socket']]],
+  ['getsendbuffersize_22',['getSendBufferSize',['../classcppu_1_1_socket.html#ab36efcea3c1d709e95a83fcd4a36af7c',1,'cppu::Socket']]],
+  ['getsolinger_23',['getSoLinger',['../classcppu_1_1_socket.html#ae9feee18305bbfb565180b1e7509329d',1,'cppu::Socket']]],
+  ['getsotimeout_24',['getSoTimeout',['../classcppu_1_1_socket.html#a2ce0bce7a0ad0ea37b9c8b9a3b261662',1,'cppu::Socket']]],
+  ['gettcpnodelay_25',['getTcpNoDelay',['../classcppu_1_1_socket.html#ae92a92e5ea17b4f1ccc17e614548053c',1,'cppu::Socket']]],
+  ['gettypename_26',['getTypeName',['../class_multimedia.html#af604542e6042a33ca650800eaf522b68',1,'Multimedia']]],
+  ['group_27',['Group',['../class_group.html',1,'Group'],['../class_group.html#af214c730661c4bb60beb522c9e727539',1,'Group::Group()']]]
+];

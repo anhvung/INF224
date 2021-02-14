@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_interface_1_1_search_action" kind="class" language="Java" prot="package">
+    <compoundname>Interface::SearchAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractAction</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_interface_1_1_search_action_1a4cb84a61cd5189deceeba18ddc23c015" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long Interface.SearchAction.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="70" column="27" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_interface_1_1_search_action_1a1fc8bc4c15564e1355ebca23ddce5374" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Interface.SearchAction.SearchAction</definition>
+        <argsstring>(String name)</argsstring>
+        <name>SearchAction</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="71" column="8" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="71" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interface_1_1_search_action_1a12d552a0872b0938991179cb175b40a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Interface.SearchAction.actionPerformed</definition>
+        <argsstring>(ActionEvent e)</argsstring>
+        <name>actionPerformed</name>
+        <param>
+          <type>ActionEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="75" column="13" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="75" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Calls client to send a SEARCH request to the server and shows the result in textArea </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Interface.SearchAction</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AbstractAction</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Interface.SearchAction</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AbstractAction</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="69" column="1" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="69" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_interface_1_1_search_action_1a12d552a0872b0938991179cb175b40a1" prot="public" virt="non-virtual"><scope>Interface::SearchAction</scope><name>actionPerformed</name></member>
+      <member refid="class_interface_1_1_search_action_1a1fc8bc4c15564e1355ebca23ddce5374" prot="public" virt="non-virtual"><scope>Interface::SearchAction</scope><name>SearchAction</name></member>
+      <member refid="class_interface_1_1_search_action_1a4cb84a61cd5189deceeba18ddc23c015" prot="private" virt="non-virtual"><scope>Interface::SearchAction</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

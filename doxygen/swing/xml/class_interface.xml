@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_interface" kind="class" language="Java" prot="public">
+    <compoundname>Interface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+    <innerclass refid="class_interface_1_1_close_action" prot="package">Interface::CloseAction</innerclass>
+    <innerclass refid="class_interface_1_1_list_action" prot="package">Interface::ListAction</innerclass>
+    <innerclass refid="class_interface_1_1_play_action" prot="package">Interface::PlayAction</innerclass>
+    <innerclass refid="class_interface_1_1_search_action" prot="package">Interface::SearchAction</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_interface_1aee95739ade7a198c12b26e63967c0f99" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long Interface.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="7" column="27" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_interface_1ac43f4b7da3c637a8aeac9fb41f3dd7cf" prot="private" static="yes" mutable="no">
+        <type>JTextArea</type>
+        <definition>JTextArea Interface.textArea</definition>
+        <argsstring></argsstring>
+        <name>textArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="9" column="26" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_interface_1af9d9d44f3ea6f6b92be75c663406380f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_client" kindref="compound">Client</ref></type>
+        <definition>Client Interface.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="8" column="16" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_interface_1a978b4ef6818e0532b319bb8816cb1f29" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Interface.Interface</definition>
+        <argsstring>(String title, Client client)</argsstring>
+        <name>Interface</name>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type><ref refid="class_client" kindref="compound">Client</ref></type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="12" column="1" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="12" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interface_1a7d581e0985c73b37cd94f56304c63df0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Interface.parseResult</definition>
+        <argsstring>(String result)</argsstring>
+        <name>parseResult</name>
+        <param>
+          <type>String</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="139" column="8" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="139" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>JFrame</label>
+      </node>
+      <node id="1">
+        <label>Interface</label>
+        <link refid="class_interface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>JFrame</label>
+      </node>
+      <node id="1">
+        <label>Interface</label>
+        <link refid="class_interface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="6" column="7" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="6" bodyend="144"/>
+    <listofallmembers>
+      <member refid="class_interface_1af9d9d44f3ea6f6b92be75c663406380f" prot="private" virt="non-virtual"><scope>Interface</scope><name>client</name></member>
+      <member refid="class_interface_1a978b4ef6818e0532b319bb8816cb1f29" prot="package" virt="non-virtual"><scope>Interface</scope><name>Interface</name></member>
+      <member refid="class_interface_1a7d581e0985c73b37cd94f56304c63df0" prot="package" virt="non-virtual"><scope>Interface</scope><name>parseResult</name></member>
+      <member refid="class_interface_1aee95739ade7a198c12b26e63967c0f99" prot="private" virt="non-virtual"><scope>Interface</scope><name>serialVersionUID</name></member>
+      <member refid="class_interface_1ac43f4b7da3c637a8aeac9fb41f3dd7cf" prot="private" virt="non-virtual"><scope>Interface</scope><name>textArea</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

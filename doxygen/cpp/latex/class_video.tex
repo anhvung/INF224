@@ -1,0 +1,78 @@
+\hypertarget{class_video}{}\doxysection{Video Class Reference}
+\label{class_video}\index{Video@{Video}}
+
+
+This if the video class.  
+
+
+
+
+{\ttfamily \#include $<$video.\+h$>$}
+
+Inheritance diagram for Video\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_video}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_video_a872d66695469697274156c64159ef41c}\label{class_video_a872d66695469697274156c64159ef41c}} 
+{\bfseries Video} (string type\+Name, string path, int duration)
+\item 
+\mbox{\Hypertarget{class_video_a89e11497f4f200f387805b10bd42922d}\label{class_video_a89e11497f4f200f387805b10bd42922d}} 
+void \mbox{\hyperlink{class_video_a89e11497f4f200f387805b10bd42922d}{play}} () const override
+\begin{DoxyCompactList}\small\item\em show video with mpv \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_video_a6ab5a40711142a467200998ea8eaf6d6}{set\+Duration}} (int length\+\_\+seconds)
+\begin{DoxyCompactList}\small\item\em set\+Duration gives the duration \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_video_a57f903f1d582ac6ef88922c7a6cb8f7f}{get\+Duration}} () const
+\begin{DoxyCompactList}\small\item\em get\+Duration returns the duration \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_video_a8fa84762e83fb29ad31a5e86bb14a975}\label{class_video_a8fa84762e83fb29ad31a5e86bb14a975}} 
+void \mbox{\hyperlink{class_video_a8fa84762e83fb29ad31a5e86bb14a975}{show\+Infos}} (ostream \&f) const override
+\begin{DoxyCompactList}\small\item\em show\+Infos shoes the Nama, path and duration \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_video_a8534071e7e759e39c42fa9a51ae620eb}\label{class_video_a8534071e7e759e39c42fa9a51ae620eb}} 
+int {\bfseries duration}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This if the video class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_video_a57f903f1d582ac6ef88922c7a6cb8f7f}\label{class_video_a57f903f1d582ac6ef88922c7a6cb8f7f}} 
+\index{Video@{Video}!getDuration@{getDuration}}
+\index{getDuration@{getDuration}!Video@{Video}}
+\doxysubsubsection{\texorpdfstring{getDuration()}{getDuration()}}
+{\footnotesize\ttfamily int Video\+::get\+Duration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+get\+Duration returns the duration 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_video_a6ab5a40711142a467200998ea8eaf6d6}\label{class_video_a6ab5a40711142a467200998ea8eaf6d6}} 
+\index{Video@{Video}!setDuration@{setDuration}}
+\index{setDuration@{setDuration}!Video@{Video}}
+\doxysubsubsection{\texorpdfstring{setDuration()}{setDuration()}}
+{\footnotesize\ttfamily void Video\+::set\+Duration (\begin{DoxyParamCaption}\item[{int}]{length\+\_\+seconds }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+set\+Duration gives the duration 
+
+
+\begin{DoxyParams}{Parameters}
+{\em duration} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+video.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,39 @@
+.TH "Client" 3 "Sun Feb 14 2021" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Client
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBClient\fP (String host, int port)  throws UnknownHostException, IOException "
+.br
+.ti -1c
+.RI "String \fBsend\fP (String request)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String argv[])"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Client\&.Client (String host, int port) throws UnknownHostException, IOException"
+Initialise la connexion\&. Renvoie une exception en cas d'erreur\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "static void Client\&.main (String argv[])\fC [static]\fP"
+Lit une requete depuis le Terminal, envoie cette requete au serveur, recupere sa reponse et l'affiche sur le Terminal\&. Noter que le programme bloque si le serveur ne repond pas\&. 
+.SS "String Client\&.send (String request)"
+Envoie une requete au server et retourne sa reponse\&. Noter que la methode bloque si le serveur ne repond pas\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

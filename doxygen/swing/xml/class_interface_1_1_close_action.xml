@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_interface_1_1_close_action" kind="class" language="Java" prot="package">
+    <compoundname>Interface::CloseAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractAction</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_interface_1_1_close_action_1a22a9b3908bd9aade04e4efa988ae1b99" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long Interface.CloseAction.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="128" column="27" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_interface_1_1_close_action_1a2ddc0a3280945241ab80cec72d0e53d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Interface.CloseAction.CloseAction</definition>
+        <argsstring>(String name)</argsstring>
+        <name>CloseAction</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="129" column="8" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="129" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interface_1_1_close_action_1a19f807abfd9d3d2976188dfdb8f67a5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Interface.CloseAction.actionPerformed</definition>
+        <argsstring>(ActionEvent e)</argsstring>
+        <name>actionPerformed</name>
+        <param>
+          <type>ActionEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="133" column="13" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="133" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Close Java execution </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Interface.CloseAction</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AbstractAction</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Interface.CloseAction</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AbstractAction</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" line="127" column="1" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Interface.java" bodystart="127" bodyend="138"/>
+    <listofallmembers>
+      <member refid="class_interface_1_1_close_action_1a19f807abfd9d3d2976188dfdb8f67a5a" prot="public" virt="non-virtual"><scope>Interface::CloseAction</scope><name>actionPerformed</name></member>
+      <member refid="class_interface_1_1_close_action_1a2ddc0a3280945241ab80cec72d0e53d6" prot="public" virt="non-virtual"><scope>Interface::CloseAction</scope><name>CloseAction</name></member>
+      <member refid="class_interface_1_1_close_action_1a22a9b3908bd9aade04e4efa988ae1b99" prot="private" virt="non-virtual"><scope>Interface::CloseAction</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

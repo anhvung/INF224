@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_client" kind="class" language="Java" prot="public">
+    <compoundname>Client</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_client_1a726d54cbc7e555b2cba9cb7fb63ed6b4" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long Client.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" line="11" column="29" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_client_1a302a618e988386463ceefd31bbfd4792" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String Client.DEFAULT_HOST</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_HOST</name>
+        <initializer>= &quot;localhost&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" line="12" column="23" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1afd263578070034213b6042e18e90a5c4" prot="package" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int Client.DEFAULT_PORT</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_PORT</name>
+        <initializer>= 3331</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" line="13" column="20" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1ada8883642b4e572e515d7965d2ae60f2" prot="private" static="no" mutable="no">
+        <type>Socket</type>
+        <definition>Socket Client.sock</definition>
+        <argsstring></argsstring>
+        <name>sock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" line="14" column="18" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1a2444414fd925ffa72107d443d968c6f7" prot="private" static="no" mutable="no">
+        <type>BufferedReader</type>
+        <definition>BufferedReader Client.input</definition>
+        <argsstring></argsstring>
+        <name>input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" line="15" column="26" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1a887c058363e5433882a9c2532196b7e3" prot="private" static="no" mutable="no">
+        <type>BufferedWriter</type>
+        <definition>BufferedWriter Client.output</definition>
+        <argsstring></argsstring>
+        <name>output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" line="16" column="26" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_client_1ac9fec818083d641b633a8e4a75d981a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Client.main</definition>
+        <argsstring>(String argv[])</argsstring>
+        <name>main</name>
+        <param>
+          <type>String</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lit une requete depuis le Terminal, envoie cette requete au serveur, recupere sa reponse et l&apos;affiche sur le Terminal. Noter que le programme bloque si le serveur ne repond pas. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" line="25" column="22" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" bodystart="25" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1a163113b9c3fda23dcdc750db9278afbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Client</definition>
+        <argsstring>(String host, int port)</argsstring>
+        <name>Client</name>
+        <param>
+          <type>String</type>
+          <declname>host</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <exceptions> throws UnknownHostException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialise la connexion. Renvoie une exception en cas d&apos;erreur. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" line="66" column="10" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" bodystart="66" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1ab26831c395da92b5893066f9ce7963a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Client.send</definition>
+        <argsstring>(String request)</argsstring>
+        <name>send</name>
+        <param>
+          <type>String</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Envoie une requete au server et retourne sa reponse. Noter que la methode bloque si le serveur ne repond pas. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" line="95" column="17" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" bodystart="95" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" line="9" column="7" bodyfile="C:/Users/nguye/OneDrive/Documents/cpp/swing/Client.java" bodystart="10" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_client_1a163113b9c3fda23dcdc750db9278afbe" prot="public" virt="non-virtual"><scope>Client</scope><name>Client</name></member>
+      <member refid="class_client_1a302a618e988386463ceefd31bbfd4792" prot="package" virt="non-virtual"><scope>Client</scope><name>DEFAULT_HOST</name></member>
+      <member refid="class_client_1afd263578070034213b6042e18e90a5c4" prot="package" virt="non-virtual"><scope>Client</scope><name>DEFAULT_PORT</name></member>
+      <member refid="class_client_1a2444414fd925ffa72107d443d968c6f7" prot="private" virt="non-virtual"><scope>Client</scope><name>input</name></member>
+      <member refid="class_client_1ac9fec818083d641b633a8e4a75d981a7" prot="public" virt="non-virtual"><scope>Client</scope><name>main</name></member>
+      <member refid="class_client_1a887c058363e5433882a9c2532196b7e3" prot="private" virt="non-virtual"><scope>Client</scope><name>output</name></member>
+      <member refid="class_client_1ab26831c395da92b5893066f9ce7963a4" prot="public" virt="non-virtual"><scope>Client</scope><name>send</name></member>
+      <member refid="class_client_1a726d54cbc7e555b2cba9cb7fb63ed6b4" prot="private" virt="non-virtual"><scope>Client</scope><name>serialVersionUID</name></member>
+      <member refid="class_client_1ada8883642b4e572e515d7965d2ae60f2" prot="private" virt="non-virtual"><scope>Client</scope><name>sock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

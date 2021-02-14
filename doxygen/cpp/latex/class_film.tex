@@ -1,0 +1,76 @@
+\hypertarget{class_film}{}\doxysection{Film Class Reference}
+\label{class_film}\index{Film@{Film}}
+
+
+classe film qui herite de \mbox{\hyperlink{class_video}{Video}}  
+
+
+
+
+{\ttfamily \#include $<$film.\+h$>$}
+
+Inheritance diagram for Film\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_film}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_film_a5c5cd6d0274cc30f77e385fa72e28177}\label{class_film_a5c5cd6d0274cc30f77e385fa72e28177}} 
+\mbox{\hyperlink{class_film_a5c5cd6d0274cc30f77e385fa72e28177}{Film}} (string name, string file\+Name, int duration, int chapter\+Count, int $\ast$chapters\+Array)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \mbox{\hyperlink{class_film}{Film}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_film_acb47f40a48b66eddf34330cdb881ec34}{show\+Infos}} (ostream \&f) const override
+\begin{DoxyCompactList}\small\item\em show\+Infos \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_film_afcc33d53ddc3389f0d9d9362323c6da3}\label{class_film_afcc33d53ddc3389f0d9d9362323c6da3}} 
+const int $\ast$ \mbox{\hyperlink{class_film_afcc33d53ddc3389f0d9d9362323c6da3}{get\+Chapters}} () const
+\begin{DoxyCompactList}\small\item\em get\+Chapters \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_film_aca6ffdbbe0b127da245f9dc433af0e30}\label{class_film_aca6ffdbbe0b127da245f9dc433af0e30}} 
+int \mbox{\hyperlink{class_film_aca6ffdbbe0b127da245f9dc433af0e30}{get\+Chapter\+Count}} () const
+\begin{DoxyCompactList}\small\item\em get\+Chapter\+Count \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_film_ad62be89caa3ba83cee177611a4b07a11}\label{class_film_ad62be89caa3ba83cee177611a4b07a11}} 
+int \mbox{\hyperlink{class_film_ad62be89caa3ba83cee177611a4b07a11}{get\+Chapter}} (int index)
+\begin{DoxyCompactList}\small\item\em get\+Chapter \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_film_aa1f14d51d31234c4249441a8e1ab6934}\label{class_film_aa1f14d51d31234c4249441a8e1ab6934}} 
+void \mbox{\hyperlink{class_film_aa1f14d51d31234c4249441a8e1ab6934}{change\+Chapters}} (const int $\ast$chapters, int chapter\+Count)
+\begin{DoxyCompactList}\small\item\em change\+Chapters \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_film_acd94aec2eec811888558c43b5515b75c}\label{class_film_acd94aec2eec811888558c43b5515b75c}} 
+int {\bfseries chapter\+Count}
+\item 
+\mbox{\Hypertarget{class_film_a1efb4bd4ccc9451247f2677b5ce659a9}\label{class_film_a1efb4bd4ccc9451247f2677b5ce659a9}} 
+int $\ast$ {\bfseries chapters}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+classe film qui herite de \mbox{\hyperlink{class_video}{Video}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_film_acb47f40a48b66eddf34330cdb881ec34}\label{class_film_acb47f40a48b66eddf34330cdb881ec34}} 
+\index{Film@{Film}!showInfos@{showInfos}}
+\index{showInfos@{showInfos}!Film@{Film}}
+\doxysubsubsection{\texorpdfstring{showInfos()}{showInfos()}}
+{\footnotesize\ttfamily void Film\+::show\+Infos (\begin{DoxyParamCaption}\item[{ostream \&}]{f }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+show\+Infos 
+
+
+\begin{DoxyParams}{Parameters}
+{\em flux} & f \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_multimedia_ac021b4d3c0628f4b2737d01b6f46f40f}{Multimedia}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+film.\+h\end{DoxyCompactItemize}
